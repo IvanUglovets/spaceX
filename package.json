@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
     "@apollo/client": "^3.7.17",
@@ -22,6 +23,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^13.4.10",
     "apollo": "^2.34.0",
     "prettier": "3.0.0"
   }
