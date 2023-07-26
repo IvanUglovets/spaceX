@@ -1,0 +1,2 @@
+
+export { getMetadata } from './metadata'

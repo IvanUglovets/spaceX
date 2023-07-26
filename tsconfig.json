@@ -22,16 +22,16 @@
       "@/*": [
         "./src/*"
       ],
-      "@services": [
+      "@/services": [
         "./src/services"
       ],
-      "@features": [
+      "@/features": [
         "./src/features"
       ],
-      "@ui-kit": [
-        "./src/ui-kit"
+      "@/utils": [
+        "./src/utils"
       ],
-      "components": [
+      "@/components": [
         "./src/components"
       ]
     },
