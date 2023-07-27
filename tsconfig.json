@@ -28,6 +28,9 @@
       "@/features": [
         "./src/features"
       ],
+      "@/configs": [
+        "./src/configs"
+      ],
       "@/utils": [
         "./src/utils"
       ],
