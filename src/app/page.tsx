@@ -1,12 +1,11 @@
-import { authConfig } from "@/configs";
-import { getServerSession } from "next-auth/next"
+"use client"
+import { useUser } from "@/contexts";
+import Image from "next/image";
 
 
-const Home = async () => {
-  const session = await getServerSession(authConfig)
-  console.log(session)
-
-  return <h1>Welcome</h1>
+const Home = () => {
+  const session = useUser()
+  return <Image src={session?.user?.image || ""} alt="" width={200} height={200} />
 }
 
 export default Home;

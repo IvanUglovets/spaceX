@@ -31,6 +31,12 @@
       "@/configs": [
         "./src/configs"
       ],
+      "@/contexts": [
+        "./src/contexts"
+      ],
+      "@/types": [
+        "./src/types"
+      ],
       "@/utils": [
         "./src/utils"
       ],

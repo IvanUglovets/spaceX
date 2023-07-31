@@ -5,4 +5,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
+  images: {
+    domains: ['lh3.googleusercontent.com'],
+  },
 });
