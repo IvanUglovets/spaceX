@@ -1,6 +1,14 @@
-const Login = () => {
+import { LoginForm } from "@/components";
+import { authConfig } from "@/configs";
+import { getServerSession } from "next-auth/next"
+import { redirect } from "next/navigation";
+import { HOME } from "@/constants";
 
-  return <h1>Login</h1>
+const Login = async () => {
+  const session = await getServerSession(authConfig)
+  if (session) redirect(HOME)
+
+  return <LoginForm />
 }
 
 

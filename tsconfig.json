@@ -42,6 +42,9 @@
       ],
       "@/components": [
         "./src/components"
+      ],
+      "@/constants": [
+        "./src/constants"
       ]
     },
     "plugins": [
